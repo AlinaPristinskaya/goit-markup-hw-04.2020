@@ -176,7 +176,7 @@ p {
 }
 .profession {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -276,8 +276,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
-.site-nav list {
-}
+
 .discription {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -426,6 +425,7 @@ ul.section-discription {
 .imgport-comand {
   display: block;
   padding-bottom: 30px;
+  margin-right: 0px;
 }
 .headerbord {
   border-bottom: #eeeeee 1px solid;
@@ -433,19 +433,32 @@ ul.section-discription {
 .item {
   display: inline-flex;
 }
-.iconsvg {
+.socseti {
+  display: flex;
   list-style: none;
-  display: inline-flex;
+  justify-content: space-between;
   padding-left: 32px;
   padding-right: 32px;
 }
-.svgicon {
-  display: inline-block;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  color: #2a2a2a;
+.icon {
+  width: 42px;
+  height: 42px;
+  display: block;
+  background-position: center;
+  background-size: cover;
   border-radius: 50%;
-  background-color: #2196f3;
-  margin-right: 10px;
+  background-color: white;
+  border-width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.svgicon {
+  margin-right: 9px;
+}
+.svgicon:last-child {
+  margin-right: 0px;
+}
+.icon:hover {
+  background-color: var(--accent);
 }
