@@ -473,6 +473,6 @@ ul.section-discription {
   padding-left: 0px;
   padding-right: 0px;
 }
-.logotipe {
-  background-image: url(../image/logo4.svg);
+.logotipe:hover {
+  fill: red;
 }
