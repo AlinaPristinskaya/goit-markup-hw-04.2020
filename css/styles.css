@@ -344,6 +344,7 @@ ul.section-discription {
 .flex {
   display: flex;
   margin-right: 0px;
+  justify-content: space-between;
 }
 .img {
   display: block;
@@ -461,4 +462,17 @@ ul.section-discription {
 }
 .icon:hover {
   background-color: var(--accent);
+}
+.client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.cardclient {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.logotipe {
+  background-image: url(../image/logo4.svg);
 }
