@@ -92,10 +92,8 @@ p {
 .telmailto:focus {
   color: var(--accent);
 }
-.envelope: {
-  content: "";
-  background-image: url(../icon/envelope.svg);
-  width: 17px;
+.envelope {
+  width: 16px;
   height: 12px;
   margin-right: 10px;
   background-size: contain;
