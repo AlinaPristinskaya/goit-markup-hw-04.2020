@@ -92,17 +92,17 @@ p {
 .telmailto:focus {
   color: var(--accent);
 }
-.envelope::before {
+.envelope: {
   content: "";
-  background-image: url(../image/envelopehover.png);
-  width: 16px;
+  background-image: url(../icon/envelope.svg);
+  width: 17px;
   height: 12px;
   margin-right: 10px;
   background-size: contain;
 }
 .smartphone::before {
   content: "";
-  background-image: url(../image/smartphone.png);
+  background-image: url(../icon/smartphone.svg);
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -475,4 +475,7 @@ ul.section-discription {
 }
 .logotipe:hover {
   fill: red;
+}
+.hov:hover {
+  fill: #2196f3;
 }
