@@ -96,6 +96,9 @@ p {
   margin-right: 10px;
   background-size: contain;
 }
+.envelope.hov:hover {
+  fill: #2196f3;
+}
 .smartphone::before {
   content: "";
   background-image: url(../icon/smartphone.svg);
@@ -471,7 +474,4 @@ ul.section-discription {
 }
 .logotipe:hover {
   fill: red;
-}
-.hov:hover {
-  fill: #2196f3;
 }
