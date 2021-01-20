@@ -96,7 +96,7 @@ p {
   margin-right: 10px;
   background-size: contain;
 }
-.envelope.hov:hover {
+.hov:hover {
   fill: #2196f3;
 }
 .smartphone::before {
@@ -343,7 +343,6 @@ ul.section-discription {
 .flex {
   display: flex;
   margin-right: 0px;
-  justify-content: space-between;
 }
 .img {
   display: block;
@@ -393,7 +392,7 @@ ul.section-discription {
   margin-right: 0px;
 }
 .site-nav {
-  justify-content: center;
+  justify-content: space-between;
 }
 .logotip {
   margin-bottom: 20px;
@@ -417,6 +416,8 @@ ul.section-discription {
   padding-right: 24px;
 }
 .card-comand {
+  display: block;
+  width: 262px;
   border: #eeeeee 1px solid;
   padding-top: 0px;
   padding-bottom: 30px;
@@ -424,6 +425,7 @@ ul.section-discription {
 }
 .imgport-comand {
   display: block;
+  padding-right: 0px;
   padding-bottom: 30px;
   margin-right: 0px;
 }
@@ -436,31 +438,13 @@ ul.section-discription {
 .socseti {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: center;
   padding-left: 32px;
   padding-right: 32px;
 }
-.icon {
-  width: 42px;
-  height: 42px;
-  display: block;
-  background-position: center;
-  background-size: cover;
-  border-radius: 50%;
-  background-color: white;
-  border-width: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .svgicon {
-  margin-right: 9px;
-}
-.svgicon:last-child {
-  margin-right: 0px;
-}
-.icon:hover {
-  background-color: var(--accent);
+  display: block;
+  margin-right: 10px;
 }
 .client {
   padding-top: 94px;
@@ -469,9 +453,89 @@ ul.section-discription {
 .cardclient {
   display: flex;
   list-style: none;
+  justify-content: space-between;
   padding-left: 0px;
   padding-right: 0px;
 }
-.logotipe:hover {
-  fill: red;
+.svga {
+  display: inline-flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid;
+  border-color: #afb1b8;
+  border-radius: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.socsetiicon {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-color: var(--primery-text-color);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.grey {
+  fill: var(--color2, #afb1b8);
+}
+.grey:hover {
+  fill: var(--white);
+}
+.socsetiicon:hover {
+  background-color: var(--accent);
+}
+.client {
+  margin-right: 30px;
+}
+.client:last-child {
+  margin-right: 0px;
+}
+.greyclient {
+  fill: var(--color2, #afb1b8);
+}
+.greyclient:hover {
+  fill: var(--accent);
+}
+.join {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.contact {
+  display: flex;
+  justify-content: flex-start;
+}
+.footericon {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0px;
+}
+.footeradres {
+  margin-right: 70px;
+}
+.footerlink {
+  padding-top: 12px;
+}
+.iconwhite {
+  fill: var(--white);
+}
+.footerbgicon {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footerbgicon:hover {
+  background-color: var(--accent);
 }
