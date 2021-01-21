@@ -353,9 +353,14 @@ ul.section-discription {
 
 .section-discription.flex .img {
   margin-right: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .flexem {
   margin-right: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 370px;
 }
 .scenery::before {
   display: block;
@@ -396,6 +401,7 @@ ul.section-discription {
 }
 .site-nav {
   justify-content: center;
+  padding-left: 0px;
 }
 .logotip {
   margin-bottom: 20px;
