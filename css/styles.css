@@ -333,6 +333,7 @@ ul.site-nav.list.flex-container {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-left: 0px;
 }
 .flexheadr {
   display: flex;
@@ -525,6 +526,7 @@ ul.section-discription {
 .footericon {
   list-style: none;
   display: flex;
+  padding-left: 0px;
 }
 .footeradres {
   margin-right: 70px;
