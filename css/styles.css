@@ -20,7 +20,6 @@ a {
   text-decoration: none;
 }
 p {
-  margin-block-start: 0em;
   margin-block-end: 0em;
 }
 .black {
@@ -48,7 +47,6 @@ p {
   list-style: none;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-inline-start: 0px;
 }
 .site-nav {
   display: flex;
@@ -91,6 +89,7 @@ p {
 .telmailto:hover,
 .telmailto:focus {
   color: var(--accent);
+  fill: var(--accent);
 }
 .envelope {
   margin-right: 10px;
@@ -124,12 +123,16 @@ p {
   letter-spacing: 0.06em;
 }
 .section-order {
-  background-color: #2f303a;
-  background-image: url(../image/fonheader.jpg);
-
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../fonopt.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  background-color: var(--primery-text-color);
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -184,7 +187,7 @@ p {
 }
 .name {
   margin-top: 0px;
-  margin-bottom: 10 px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -296,7 +299,6 @@ p {
 }
 .contboot {
   width: 1170;
-  margin-top: px;
   padding-bottom: 50px;
 }
 
@@ -323,6 +325,7 @@ p {
 ul.site-nav.list.flex-container {
   padding-inline-start: 0px;
 }
+
 .sitenav {
   color: var(--secondary-text-color);
 
@@ -349,7 +352,7 @@ ul.section-discription {
 }
 
 .section-discription.flex .img {
-  margin-right: 30;
+  margin-right: 30px;
 }
 .flexem {
   margin-right: 30px;
@@ -392,7 +395,7 @@ ul.section-discription {
   margin-right: 0px;
 }
 .site-nav {
-  justify-content: space-between;
+  justify-content: center;
 }
 .logotip {
   margin-bottom: 20px;
@@ -516,7 +519,6 @@ ul.section-discription {
 .footericon {
   list-style: none;
   display: flex;
-  padding-inline-start: 0px;
 }
 .footeradres {
   margin-right: 70px;
@@ -538,4 +540,11 @@ ul.section-discription {
 }
 .footerbgicon:hover {
   background-color: var(--accent);
+}
+.itemsvg {
+  fill: var(--primery-text-color);
+  margin-right: 10px;
+}
+.itemsvg:hover {
+  fill: var(--accent);
 }
