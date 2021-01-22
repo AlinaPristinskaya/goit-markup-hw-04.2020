@@ -47,6 +47,8 @@ p {
   list-style: none;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .site-nav {
   display: flex;
@@ -131,7 +133,7 @@ p {
     url(../fonopt.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-color: var(--primery-text-color);
   max-width: 1600px;
   height: 600px;
@@ -290,6 +292,8 @@ p {
   list-style: none;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .margin {
   margin-top: 0px;
@@ -309,6 +313,8 @@ p {
 .flex-elem {
   margin-right: 30px;
   margin-bottom: 30px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .flex-elem:nth-child(3n) {
@@ -362,6 +368,15 @@ ul.section-discription {
   padding-right: 0px;
   padding-left: 0px;
   width: 370px;
+}
+.piople {
+  margin-right: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 260px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .scenery::before {
   display: block;
@@ -427,7 +442,7 @@ ul.section-discription {
 }
 .card-comand {
   display: block;
-  width: 262px;
+  width: 260px;
   border: #eeeeee 1px solid;
   padding-top: 0px;
   padding-bottom: 30px;
@@ -451,12 +466,14 @@ ul.section-discription {
   justify-content: center;
   padding-left: 32px;
   padding-right: 32px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .svgicon {
   display: block;
   margin-right: 10px;
 }
-.client {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -466,16 +483,26 @@ ul.section-discription {
   justify-content: space-between;
   padding-left: 0px;
   padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .svga {
   display: inline-flex;
-  width: 168px;
-  height: 88px;
-  border: 1px solid;
-  border-color: #afb1b8;
-  border-radius: 5%;
   justify-content: center;
   align-items: center;
+  border: 1px solid;
+  border-color: #afb1b8;
+  border-radius: 4%;
+  width: 168px;
+  height: 88px;
+  color: var(--color2, #afb1b8);
+}
+.svga:hover,
+.svga:focus {
+  color: var(--accent);
+  border-color: var(--accent);
 }
 .socsetiicon {
   display: inline-flex;
@@ -485,25 +512,27 @@ ul.section-discription {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  color: var(--color2, #afb1b8);
 }
 
 .grey {
-  fill: var(--color2, #afb1b8);
+  fill: currentColor;
 }
-.grey:hover {
-  fill: var(--white);
-}
-.socsetiicon:hover {
+.socsetiicon:hover,
+.socsetiicon:focus {
   background-color: var(--accent);
+  color: var(--white);
 }
 .client {
   margin-right: 30px;
+  width: 168px;
+  height: 88px;
 }
 .client:last-child {
   margin-right: 0px;
 }
 .greyclient {
-  fill: var(--color2, #afb1b8);
+  fill: currentColor;
 }
 .greyclient:hover {
   fill: var(--accent);
@@ -527,6 +556,8 @@ ul.section-discription {
   list-style: none;
   display: flex;
   padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .footeradres {
   margin-right: 70px;
@@ -550,7 +581,7 @@ ul.section-discription {
   background-color: var(--accent);
 }
 .itemsvg {
-  fill: var(--primery-text-color);
+  fill: currentColor;
   margin-right: 10px;
 }
 .itemsvg:hover {
