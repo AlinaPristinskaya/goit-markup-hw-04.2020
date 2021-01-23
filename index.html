@@ -53,7 +53,7 @@
     <section class="section-order">
         <div class="conteiner">
         <h1 class="accentpage">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button  type="button" class="button primery">Заказать услугу</button>
+        <button  type="button" class="button primery" data-modal-open>Заказать услугу</button>
         </div>
     </section>
     <section class="aboutus">
@@ -82,9 +82,18 @@
         <div class="conteiner">
         <h2 class="section-title zag">Чем мы занимаемся</h2>
         <ul class="section-discription flex">
-        <li class="flexem"><img src="./image/box1.jpg" alt="Картинка с изображением ноутбука" width="370" height="294" class="img"></li>
-        <li class="flexem"><img src="./image/box2.jpg" alt="Картинка с изображением телефона" width="370" height="294" class="img"></li>
-        <li class="flexem"><img src="./image/box3.jpg" alt="Картинка с изображением планшета" width="370" height="294" class="img"></li>
+        <li class="flexem">
+            <img src="./image/box1.jpg" alt="Картинка с изображением ноутбука" width="370" height="294" class="img">
+            <p class="flexemp">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+        </li>
+        <li class="flexem">
+            <img src="./image/box2.jpg" alt="Картинка с изображением телефона" width="370" height="294" class="img">
+            <p class="flexemp">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+            </li>
+        <li class="flexem">
+            <img src="./image/box3.jpg" alt="Картинка с изображением планшета" width="370" height="294" class="img">
+            <p class="flexemp">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+            </li>
         </ul>
         </div>
         
@@ -395,6 +404,11 @@
            </div>
         
        </footer>
-    
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button data-modal-close >Закрыть</button>
+        </div>
+    </div>
+    <script src="./modal.js"></script>
  </body>
 </html>
