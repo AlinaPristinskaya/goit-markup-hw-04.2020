@@ -577,7 +577,8 @@ ul.section-discription {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.footerbgicon:hover {
+.footerbgicon:hover,
+.footerbgicon:focus {
   background-color: var(--accent);
 }
 .itemsvg {
