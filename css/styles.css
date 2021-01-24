@@ -506,8 +506,8 @@ ul.section-discription {
   height: 88px;
   color: var(--color2, #afb1b8);
 }
-.svga:hover,
-.svga:focus {
+.client:hover .svga,
+.client:focus .svga {
   color: var(--accent);
   border-color: var(--accent);
 }
@@ -541,9 +541,7 @@ ul.section-discription {
 .greyclient {
   fill: currentColor;
 }
-.greyclient:hover {
-  fill: var(--accent);
-}
+
 .join {
   font-family: Roboto;
   font-style: normal;
